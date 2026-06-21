@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Светлая тема -->
+    <color name="light_bg">#FAFAFA</color>
+    <color name="light_text_primary">#000000</color>
+    <color name="light_text_secondary">#4F5F53</color>
+    <color name="light_btn_primary">#2A663B</color>
+    <color name="light_btn_secondary">#E2EFE4</color>
+
+    <!-- Темная тема -->
+    <color name="dark_bg">#121212</color>
+    <color name="dark_text_primary">#FFFFFF</color>
+    <color name="dark_text_secondary">#9AA59C</color>
+    <color name="dark_btn_primary">#4EAA64</color>
+    <color name="dark_btn_secondary">#2D3530</color>
+
+    <!-- Общие -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="gray">#888888</color>
+    <color name="red">#FFD32F2F</color>
+</resources>
