@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        // Применяем тему перед загрузкой layout
+        
         applyTheme();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -45,10 +45,10 @@ public class MainActivity extends AppCompatActivity {
         tvStatus = findViewById(R.id.tv_status);
         switchTheme = findViewById(R.id.switch_theme);
 
-        // Настройка RecyclerView
+        
         rvPrefixes.setLayoutManager(new LinearLayoutManager(this));
 
-        // Инициализация адаптера
+        
         adapter = new PrefixAdapter(prefsManager.getPrefixes(), new PrefixAdapter.OnPrefixActionListener() {
             @Override
             public void onDelete(String prefix) {
@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
         });
         rvPrefixes.setAdapter(adapter);
 
-        // Кнопка добавления префикса
+        
         btnAdd.setOnClickListener(v -> {
             String prefix = etPrefix.getText().toString().trim();
             if (prefix.isEmpty()) {
@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
         Button btnRequestRole = findViewById(R.id.btn_request_role);
         btnRequestRole.setOnClickListener(v -> requestScreeningRole());
 
-        // Настройка переключателя темы
+        
         int currentTheme = prefsManager.getTheme();
         switchTheme.setChecked(currentTheme == 1);
 
@@ -104,7 +104,7 @@ public class MainActivity extends AppCompatActivity {
                 AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
                 prefsManager.saveTheme(0);
             }
-            recreate(); // Пересоздаем Activity для применения темы
+            recreate(); 
         });
 
         updatePrefixList();

@@ -29,7 +29,6 @@
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
 
-        <!-- СЕРВИС БЛОКИРОВКИ (НОВОЕ ИМЯ) -->
         <service
             android:name=".service.CallBlockerService"
             android:permission="android.permission.BIND_SCREENING_SERVICE"

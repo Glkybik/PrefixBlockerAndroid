@@ -9,7 +9,7 @@
     android:background="?attr/colorSurface"
     android:fitsSystemWindows="true">
 
-    <!-- Заголовок -->
+    
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -20,7 +20,7 @@
         android:gravity="center"
         android:layout_marginBottom="16dp" />
 
-    <!-- Статус -->
+    
     <TextView
         android:id="@+id/tv_status"
         android:layout_width="match_parent"
@@ -33,7 +33,7 @@
         android:background="@drawable/bg_status"
         android:layout_marginBottom="16dp" />
 
-    <!-- Поле ввода префикса -->
+    
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -50,7 +50,7 @@
 
     </com.google.android.material.textfield.TextInputLayout>
 
-    <!-- Кнопка добавить -->
+    
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_add"
         android:layout_width="match_parent"
@@ -60,7 +60,7 @@
         android:backgroundTint="?attr/colorPrimary"
         android:layout_marginBottom="16dp" />
 
-    <!-- Заголовок списка -->
+    
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -70,7 +70,7 @@
         android:textColor="?attr/colorOnSurface"
         android:layout_marginBottom="8dp" />
 
-    <!-- Список префиксов -->
+    
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_prefixes"
         android:layout_width="match_parent"
@@ -78,7 +78,7 @@
         android:layout_weight="1"
         android:layout_marginBottom="12dp" />
 
-    <!-- Кнопка запроса роли -->
+    
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_request_role"
         android:layout_width="match_parent"
@@ -88,7 +88,7 @@
         android:backgroundTint="?attr/colorPrimary"
         android:layout_marginBottom="12dp" />
 
-    <!-- Тумблер темы -->
+    
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

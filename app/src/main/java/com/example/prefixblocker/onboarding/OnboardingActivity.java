@@ -15,7 +15,6 @@ public class  OnboardingActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        // Применяем тему перед загрузкой layout
         applyTheme();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_onboarding);
